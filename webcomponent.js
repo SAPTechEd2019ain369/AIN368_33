@@ -1,4 +1,5 @@
 (function()  {
+    //D3 imports
     let d3Script = document.createElement('script');
     d3Script.src = 'https://d3js.org/d3.v5.min.js';
     d3Script.async = false;
@@ -10,7 +11,6 @@
       </style>
     `;
 
-    //Hello World
     d3Script.onload = () => 
 
     customElements.define('com-sap-teched-gauge-XX', class Gauge extends HTMLElement {
